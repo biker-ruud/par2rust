@@ -1,0 +1,12 @@
+[package]
+name = "par2rust"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.77"
+description = "PAR 2.0 compatible file verification and repair tool, ported 1:1 from par2cmdline"
+license = "GPL-2.0-or-later"
+
+[[bin]]
+name = "par2rust"
+path = "src/main.rs"
+

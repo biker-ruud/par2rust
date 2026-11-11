@@ -1,0 +1,29 @@
+par2rust is a 1:1 Rust port of par2cmdline, a PAR 2.0 compatible file
+verification and repair tool.
+
+
+Original par2cmdline (C++) authors
+----------------------------------
+
+Peter Brian Clements <peterbclements@users.sourceforge.net>
+Marcel Partap <mpartap@gmx.net>
+Ike Devolder <ike.devolder@gmail.com>
+Jussi Kansanen <jussi.kansanen@gmail.com>
+Michael Nahas <mike@nahas.com>
+
+Additional original authors of individual source files (for example
+src/utf8.h / src/utf8.cpp) are credited in the headers of those files;
+those credits are reproduced in the corresponding Rust files.
+
+
+Rust port
+---------
+
+Michael Nightingale
+
+par2rust is derived from par2cmdline
+<https://github.com/Parchive/par2cmdline> and is licensed under the
+GNU General Public License, version 2 or (at your option) any later
+version. See the file COPYING for the full license text. The original
+copyright notices are retained in the headers of the individual source
+files.
